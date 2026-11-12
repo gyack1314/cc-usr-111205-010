@@ -1,0 +1,343 @@
+{
+  "covariates": [
+    "distance",
+    "load"
+  ],
+  "rows": [
+    {
+      "id": "w0-0",
+      "process": "p0",
+      "time": 0,
+      "x": [
+        0,
+        0
+      ],
+      "y": 5,
+      "weight": 1
+    },
+    {
+      "id": "w0-1",
+      "process": "p0",
+      "time": 1,
+      "x": [
+        1,
+        1
+      ],
+      "y": 10,
+      "weight": 2
+    },
+    {
+      "id": "w0-2",
+      "process": "p0",
+      "time": 2,
+      "x": [
+        2,
+        2
+      ],
+      "y": 9,
+      "weight": 1
+    },
+    {
+      "id": "w0-3",
+      "process": "p0",
+      "time": 3,
+      "x": [
+        3,
+        0
+      ],
+      "y": 14,
+      "weight": 2
+    },
+    {
+      "id": "w1-0",
+      "process": "p1",
+      "time": 100,
+      "x": [
+        0,
+        1
+      ],
+      "y": 6,
+      "weight": 1
+    },
+    {
+      "id": "w1-1",
+      "process": "p1",
+      "time": 101,
+      "x": [
+        1,
+        2
+      ],
+      "y": 11,
+      "weight": 2
+    },
+    {
+      "id": "w1-2",
+      "process": "p1",
+      "time": 102,
+      "x": [
+        2,
+        0
+      ],
+      "y": 10,
+      "weight": 1
+    },
+    {
+      "id": "w1-3",
+      "process": "p1",
+      "time": 103,
+      "x": [
+        3,
+        1
+      ],
+      "y": 15,
+      "weight": 2
+    },
+    {
+      "id": "w2-0",
+      "process": "p2",
+      "time": 200,
+      "x": [
+        0,
+        2
+      ],
+      "y": 7,
+      "weight": 1
+    },
+    {
+      "id": "w2-1",
+      "process": "p2",
+      "time": 201,
+      "x": [
+        1,
+        0
+      ],
+      "y": 12,
+      "weight": 2
+    },
+    {
+      "id": "w2-2",
+      "process": "p2",
+      "time": 202,
+      "x": [
+        2,
+        1
+      ],
+      "y": 11,
+      "weight": 1
+    },
+    {
+      "id": "w2-3",
+      "process": "p2",
+      "time": 203,
+      "x": [
+        3,
+        2
+      ],
+      "y": 16,
+      "weight": 2
+    },
+    {
+      "id": "w3-0",
+      "process": "p3",
+      "time": 300,
+      "x": [
+        0,
+        0
+      ],
+      "y": 8,
+      "weight": 1
+    },
+    {
+      "id": "w3-1",
+      "process": "p3",
+      "time": 301,
+      "x": [
+        1,
+        1
+      ],
+      "y": 13,
+      "weight": 2
+    },
+    {
+      "id": "w3-2",
+      "process": "p3",
+      "time": 302,
+      "x": [
+        2,
+        2
+      ],
+      "y": 12,
+      "weight": 1
+    },
+    {
+      "id": "w3-3",
+      "process": "p3",
+      "time": 303,
+      "x": [
+        3,
+        0
+      ],
+      "y": 17,
+      "weight": 2
+    },
+    {
+      "id": "w4-0",
+      "process": "p4",
+      "time": 400,
+      "x": [
+        5,
+        5
+      ],
+      "y": 9,
+      "weight": 1
+    },
+    {
+      "id": "w4-1",
+      "process": "p4",
+      "time": 401,
+      "x": [
+        5,
+        5
+      ],
+      "y": 14,
+      "weight": 2
+    },
+    {
+      "id": "w4-2",
+      "process": "p4",
+      "time": 402,
+      "x": [
+        5,
+        5
+      ],
+      "y": 13,
+      "weight": 1
+    },
+    {
+      "id": "w4-3",
+      "process": "p4",
+      "time": 403,
+      "x": [
+        5,
+        5
+      ],
+      "y": 18,
+      "weight": 2
+    },
+    {
+      "id": "w5-0",
+      "process": "p5",
+      "time": 500,
+      "x": [
+        5,
+        5
+      ],
+      "y": 10,
+      "weight": 1
+    },
+    {
+      "id": "w5-1",
+      "process": "p5",
+      "time": 501,
+      "x": [
+        5,
+        5
+      ],
+      "y": 15,
+      "weight": 2
+    },
+    {
+      "id": "w5-2",
+      "process": "p5",
+      "time": 502,
+      "x": [
+        5,
+        5
+      ],
+      "y": 14,
+      "weight": 1
+    },
+    {
+      "id": "w5-3",
+      "process": "p5",
+      "time": 503,
+      "x": [
+        5,
+        5
+      ],
+      "y": 19,
+      "weight": 2
+    }
+  ],
+  "quantiles": [
+    0.5,
+    0.9,
+    0.95
+  ],
+  "domain_vertices": [
+    [
+      0,
+      0
+    ],
+    [
+      3,
+      0
+    ],
+    [
+      0,
+      3
+    ],
+    [
+      3,
+      3
+    ]
+  ],
+  "development_processes": [
+    "p0",
+    "p1",
+    "p2",
+    "p3"
+  ],
+  "external_processes": [
+    "p4",
+    "p5"
+  ],
+  "folds": [
+    {
+      "train": [
+        "p0"
+      ],
+      "validation": [
+        "p1"
+      ]
+    },
+    {
+      "train": [
+        "p0",
+        "p1"
+      ],
+      "validation": [
+        "p2"
+      ]
+    },
+    {
+      "train": [
+        "p0",
+        "p1",
+        "p2"
+      ],
+      "validation": [
+        "p3"
+      ]
+    }
+  ],
+  "lambda_candidates": [
+    0,
+    0.1,
+    1
+  ],
+  "solver": {
+    "tolerance": 1e-08,
+    "max_iterations": 10000
+  }
+}
